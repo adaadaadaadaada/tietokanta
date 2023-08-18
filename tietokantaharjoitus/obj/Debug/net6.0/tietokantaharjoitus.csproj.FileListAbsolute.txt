@@ -1,0 +1,14 @@
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\bin\Debug\net6.0\tietokantaharjoitus.exe
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\bin\Debug\net6.0\tietokantaharjoitus.deps.json
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\bin\Debug\net6.0\tietokantaharjoitus.runtimeconfig.json
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\bin\Debug\net6.0\tietokantaharjoitus.dll
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\bin\Debug\net6.0\tietokantaharjoitus.pdb
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.AssemblyInfoInputs.cache
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.AssemblyInfo.cs
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.csproj.CoreCompileInputs.cache
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.dll
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\refint\tietokantaharjoitus.dll
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.pdb
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.genruntimeconfig.cache
+C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\ref\tietokantaharjoitus.dll
