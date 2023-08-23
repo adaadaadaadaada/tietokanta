@@ -26,6 +26,22 @@ while (true) //valikko
     }
 }
 
+static void QueringTuoteMäärä()
+{
+    using Varastonhallinta varastonhallinta = new();
+    Console.WriteLine("Tuotemäärä: ");
+    IQueryable<Tuote>? tuoteAmount = varastonhallinta.Tuotteet;
+
+    if (tuoteAmount is null)
+    {
+        Console.WriteLine("Ei ole yhtään tuotteita");
+        return;
+    }
+    foreach (Tuote tuote in tuoteAmount)
+    {
+        Console.WriteLine(tuote.VarastoSaldo);
+    }
+} //3
 static void QueringTuotteet()
 {
     using Varastonhallinta varastonhallinta = new();
