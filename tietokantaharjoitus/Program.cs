@@ -18,6 +18,7 @@ while (true) //valikko
     {
         Console.WriteLine("Syötä uusi numero");
     }
+    if (userinput == "3") { }
     if (userinput == "4") { QueringTuotteet(); }
     if (userinput == "5") { VaihdaTuotenimi(); }
     if (userinput == "0")
