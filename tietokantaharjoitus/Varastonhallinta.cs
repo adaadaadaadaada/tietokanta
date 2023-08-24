@@ -11,7 +11,7 @@ namespace tietokantaharjoitus
 {
     public class Varastonhallinta :DbContext
     {
-        public DbSet<Tuote> Tuotteet { get; set; }
+        public DbSet<Tuote> Tuotteet { get; set; }       
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

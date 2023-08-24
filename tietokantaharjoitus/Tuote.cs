@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 namespace tietokantaharjoitus
 {
 
-    internal class Tuote
+    public class Tuote
     {
         [Key]
         public int? ID { get; set; }
