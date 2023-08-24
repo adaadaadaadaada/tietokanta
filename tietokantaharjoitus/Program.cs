@@ -46,6 +46,7 @@ while (true) //valikko
     }
     if (userinput == "0")
     {
+        break;
     }
 }
 
