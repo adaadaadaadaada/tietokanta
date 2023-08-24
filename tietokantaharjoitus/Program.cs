@@ -19,8 +19,23 @@ while (true) //valikko
     {
         Console.WriteLine("Syötä uusi numero");
     }
-    if (userinput == "3") { }
-    if (userinput == "4") { QueringTuotteet(); }
+
+    if (userinput == "1")
+    {
+        LisääTuote();
+    }
+    if (userinput == "2")
+    {
+        Poistatuote();
+    }
+    if (userinput == "3")
+    {
+        QueringTuoteMäärä();
+    }
+    if (userinput == "4")
+    {
+        QueringTuotteet();
+    } 
     if (userinput == "5") 
     {
         Console.WriteLine("Minkä tuotteen nimen haluat vaihtaa? (Syötä tuotteen ID)");
@@ -33,6 +48,38 @@ while (true) //valikko
     {
     }
 }
+
+static bool LisääTuote(string newTuotenimi, string newID)
+{
+    using Varastonhallinta varastonhallinta = new();
+    Tuote tuote = new()
+    {
+        ID = newID,
+        Tuotenimi = newTuotenimi,
+        Tuotehinta = newTuotehinta,
+        Varastosaldo = newVarastosaldo
+    };
+    Varastonhallinta.Tuotteet?.Add(tuote)
+    int affect = varastonhallinta.SaveChanges();
+    return affect == 1;
+} //1
+
+static int Poistatuote(string ID)
+{
+    using Varastonhallinta varastonhallinta = new();
+
+    Tuote Poistatuote = varastohallinta.Tuotenimi.Find(ID);
+    if (Poistatuote is null)
+    {
+        return 0;
+    }
+    else
+    {
+        varastonhallinta.Remove(Poistatuote);
+        int affect = varastonhallinta.SaveChanges();
+        return affect == 1;
+    }
+} //2 
 
 static void QueringTuoteMäärä()
 {
