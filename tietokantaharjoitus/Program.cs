@@ -38,7 +38,11 @@ while (true) //valikko
     } 
     if (userinput == "5") 
     {
-        VaihdaTuotenimi();
+        Console.WriteLine("Minkä tuotteen nimen haluat vaihtaa? (Syötä tuotteen ID)");
+        int tuoteID = Console.Read();
+        Console.WriteLine("Syötä uusi nimi tuotteelle: ");
+        string uusiNimi = Console.ReadLine();
+        VaihdaTuotenimi(uusiNimi, tuoteID);
     }
     if (userinput == "0")
     {
@@ -109,10 +113,10 @@ static void QueringTuotteet()
         Console.WriteLine(tuote.Tuotenimi + ": " + tuote.ID);
     }
 } //4
-static bool VaihdaTuotenimi(string newTuotenimi, string id)
+static bool VaihdaTuotenimi(string newTuotenimi, int id)
 {
     using Varastonhallinta varastonhallinta = new();
-    Tuote tuoteUpdate = varastonhallinta.Tuotteet.FirstOrDefault(tuote => tuote.Tuotenimi == id);
+    Tuote tuoteUpdate = varastonhallinta.Tuotteet.FirstOrDefault(tuote => tuote.ID == id);
 
     if (tuoteUpdate is null)
     {
@@ -124,28 +128,4 @@ static bool VaihdaTuotenimi(string newTuotenimi, string id)
         int affected = varastonhallinta.SaveChanges();
         return affected == 1;
     }
-} //5.1
-static string UusiTuoteNimi( string ID) //5.2
-{
-    using Varastonhallinta varastonhallinta = new();
-
-    Tuote valitseTuote = varastonhallinta.Tuotenimi.Find(ID);
-    if (UusiTuoteNimi = null)
-    {
-        return null;
-    }
-    else
-    {
-        varastonhallinta.
-    }
-
-    Console.WriteLine("Mikä tuote? (Syötä tuotteen ID)");
-    string userinput = Console.ReadLine();
-
-    if (userinput )
-
-    Console.WriteLine("Uusi nimi tuotteelle: ");
-    string uusinimi = Console.ReadLine();
-
-    return uusinimi;
-}
+} //5
