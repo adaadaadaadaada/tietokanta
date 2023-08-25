@@ -50,7 +50,7 @@ while (true) //valikko
     }
 }
 
-static bool LisääTuote(string newTuotenimi, string newID, string newTuotehinta string newVarastosaldo)
+static bool LisääTuote(string newTuotenimi, int newID, int newTuotehinta int newVarastosaldo)
 {
     using Varastonhallinta varastonhallinta = new();
     Tuote tuote = new()
@@ -60,8 +60,8 @@ static bool LisääTuote(string newTuotenimi, string newID, string newTuotehinta
         Tuotehinta = newTuotehinta,
         Varastosaldo = newVarastosaldo
     };
-    Varastonhallinta.Tuotteet?.Add(tuote);
-    int affected = Varastonhallinta.SaveChanges();
+    varastonhallinta.Tuotteet?.Add(tuote);
+    int affected = varastonhallinta.SaveChanges();
     return affected == 1;
 } //1
 
