@@ -69,7 +69,7 @@ static int Poistatuote(string ID)
 {
     using Varastonhallinta varastonhallinta = new();
 
-    Tuote poistettavaTuote = varastohallinta.Tuotteet.Find(ID);
+    Tuote poistettavaTuote = varastonhallinta.Tuotteet.Find(ID);
     if (poistettavaTuote is null)
     {
         return 0;
