@@ -13,3 +13,6 @@ C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tieto
 C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.genruntimeconfig.cache
 C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\ref\tietokantaharjoitus.dll
 C:\Users\s2101097\OneDrive - Business College Helsinki\Peliohjelmointi\sql\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.csproj.AssemblyReference.cache
+C:\Users\Onni Torkkeli\Documents\GitHub\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.dll
+C:\Users\Onni Torkkeli\Documents\GitHub\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\refint\tietokantaharjoitus.dll
+C:\Users\Onni Torkkeli\Documents\GitHub\tietokanta\tietokantaharjoitus\obj\Debug\net6.0\tietokantaharjoitus.pdb
