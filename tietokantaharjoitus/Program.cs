@@ -50,7 +50,7 @@ while (true) //valikko
     }
 }
 
-static bool LisääTuote(string newTuotenimi, string newID, string newTuotehinta string newVarastosaldo)
+static bool LisääTuote(string newTuotenimi, int newID, int newTuotehinta int newVarastosaldo)
 {
     using Varastonhallinta varastonhallinta = new();
     Tuote tuote = new()
