@@ -52,15 +52,15 @@ while (true) //valikko
 
 static bool LisääTuote(string newTuotenimi, string newID, string newTuotehinta string newVarastosaldo)
 {
-    using Varastonhallinta varastonhallinta = new();
-    Tuote tuote = new()
+    using Varastonhallinta varastonhallinta = new Varastonhallinta();
+    Tuote tuote = new Tuote()
     {
         ID = newID,
         Tuotenimi = newTuotenimi,
         Tuotehinta = newTuotehinta,
         Varastosaldo = newVarastosaldo
     };
-    Varastonhallinta.Tuotteet?.Add(tuote)
+    Varastonhallinta.Tuotteet?.Add(tuote);
     int affect = varastonhallinta.SaveChanges();
     return affect == 1;
 } //1
@@ -69,14 +69,14 @@ static int Poistatuote(string ID)
 {
     using Varastonhallinta varastonhallinta = new();
 
-    Tuote Poistatuote = varastohallinta.Tuotenimi.Find(ID);
-    if (Poistatuote is null)
+    Tuote poistettavaTuote = varastohallinta.Tuotenimi.Find(ID);
+    if (poistettavaTuote is null)
     {
         return 0;
     }
     else
     {
-        varastonhallinta.Remove(Poistatuote);
+        varastonhallinta.Remove(poistettavaTuote);
         int affected = varastonhallinta.SaveChanges();
         return affected;
     }
