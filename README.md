@@ -6,7 +6,8 @@ Ada:
 - SQL jutut
 - tietokanta luokka
 - valikko
+- muu toiminnallisuus (paitsi poista ja lisää luokat)
 
 Otto:
 - tuote luokka
-- muu toiminnallisuus
+- poista + lisää luokat
